@@ -2,7 +2,7 @@ import requests
 import json
 
 API_URL = "https://api.x.ai/v1/chat/completions"
-API_KEY = "xai-K80PvsOrUsTYyHoRBfkJEszACAtw8B5peHHwWS4EM9YxMA2ZtrBhHUNhcMIB3TMyMKx69yZ8bqYk2z9w"
+API_KEY = "api키를 입력해야함"
 
 def get_personal_color_recommendation(skin_rgb, eye_rgb, hair_rgb):
     prompt = f"""
